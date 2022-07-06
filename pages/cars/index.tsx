@@ -65,7 +65,7 @@ const AllCarsPage = ({ allCarsData, allCarMakes }: any) => {
             <AllCarsListings allCarsData={allCarsData.result} />
 
             <div className={styles.pagination_wrap}>
-              <Pagination sizes={[25, 40, 50, 60]} theme={styles3} total={allCarsData.pagination.total} />
+              {/* <Pagination sizes={[25, 40, 50, 60]} theme={styles3} total={allCarsData.pagination.total} /> */}
             </div>
 
           </div>
