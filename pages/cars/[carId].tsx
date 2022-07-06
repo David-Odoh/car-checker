@@ -200,7 +200,7 @@ export async function getServerSideProps(context: any) {
     getCarMedia(idRetrieved), getCar(idRetrieved)
   ]);
   
-  console.log('media data', aCarMediaData)
+//   console.log('media data', aCarMediaData)
 
   return { props: { aCarMediaData, singleCarData } };
 }
