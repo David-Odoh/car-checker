@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@etchteam/next-pagination": "^3.5.3",
     "axios": "^0.27.2",
     "embla-carousel-autoplay": "^7.0.0-rc03",
     "embla-carousel-react": "^7.0.0-rc03",

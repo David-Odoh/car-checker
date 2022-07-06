@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import Link from 'next/link'
 import Head from 'next/head'
-import Pagination from '@etchteam/next-pagination'
+// import Pagination from '@etchteam/next-pagination'
 
 import styles from "../../styles/Home.module.scss"
 import styles3 from "../../styles/components/pagination.module.scss"
