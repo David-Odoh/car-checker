@@ -34,6 +34,7 @@ const AllCarsListings = ({ allCarsData }: any) => {
                           carInfo={car}
                           urlPrefix="/car"
                           urlSplitter="/car"
+                          key={index}
                         />
                     )})
                 }
