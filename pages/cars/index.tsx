@@ -33,7 +33,7 @@ const AllCarsListings = ({ allCarsData }: any) => {
                           cardCta="Add to Cart"
                           carInfo={car}
                           urlPrefix="/cars"
-                          urlSplitter="/cars"
+                          urlSplitter="/car"
                           key={index}
                         />
                     )})
