@@ -30,10 +30,10 @@ const AllCarsListings = ({ allCarsData }: any) => {
                     return (
                         <Car
                           showTag={index == 1 || index == 2}
-                          cardCta="More details"
+                          cardCta="Add to Cart"
                           carInfo={car}
-                          urlPrefix="/car"
-                          urlSplitter="/car"
+                          urlPrefix="/cars"
+                          urlSplitter="/cars"
                           key={index}
                         />
                     )})

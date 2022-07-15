@@ -32,7 +32,7 @@ export const AllCarsListings = ({ allCarsData }: any) => {
                                     cardCta="Add to Cart"
                                     carInfo={car}
                                     urlPrefix="/cars"
-                                    urlSplitter="/car"
+                                    urlSplitter="/cars"
                                     key={index}
                                 />
                         //      </a>
@@ -41,11 +41,6 @@ export const AllCarsListings = ({ allCarsData }: any) => {
                 }
             </div>
         </div>
-        {/* <div className={styles.view_more_cars}>
-          <Link href="/cars">
-            <a>More Car deals &gt;&gt;</a>
-          </Link>
-        </div> */}
   
       </div>
     )
