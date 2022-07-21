@@ -143,7 +143,7 @@ $next-pagination-select-border-color-hover: $next-pagination-interative-color;
     position: relative;
     text-overflow: ellipsis;
     transition: border-color .2s ease-in-out;
-    width: 100%;
+    width: 80px;
 
     &:focus-within,
     &:hover {

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import Link from 'next/link'
 import Head from 'next/head'
-// import Pagination from '@etchteam/next-pagination'
+import Pagination from '@etchteam/next-pagination'
 
 import styles from "../../styles/Home.module.scss"
 import styles3 from "../../styles/components/pagination.module.scss"
@@ -66,7 +66,7 @@ const AllCarsPage = ({ allCarsData, allCarMakes }: any) => {
             <AllCarsListings allCarsData={allCarsData.result} />
 
             <div className={styles.pagination_wrap}>
-              {/* <Pagination sizes={[25, 40, 50, 60]} theme={styles3} total={allCarsData.pagination.total} /> */}
+              <Pagination sizes={[9, 20, 40, 50, 60]} theme={styles3} total={allCarsData.pagination.total} />
             </div>
 
           </div>

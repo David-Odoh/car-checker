@@ -24,7 +24,7 @@ export const getAllCars = async ({isRandomData, pageNum, pageSize}:any) => {
         `${Paths.SEARCH_CARS}`,{
             params:{
                 page_number: pageNum||1,
-                page_size: pageSize||25
+                page_size: pageSize||9
             }
         }
     )
